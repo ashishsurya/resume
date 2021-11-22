@@ -3,18 +3,23 @@ export default function SkillsContainer() {
     {
       id: 1,
       title: 'Languages',
-      list: ['Javascript', ' Python', ' Kotlin', ' C/C++', ' Dart', ' SQL'],
+      list: ['Javascript(TS)', ' Python', ' Kotlin', ' C/C++', ' Dart', ' SQL', " GraphQL"],
     },
     {
       id: 2,
       title: 'Frameworks',
-      list: ['React.js', ' React-Native', ' Flutter'],
+      list: ['React.js', ' React-Native', ' Flutter', ' Material-UI'],
+    },
+    {
+      id: 3,
+      title: 'Libraries',
+      list: ['Pandas', ' Numpy', ' Scikit-Learn', ' Redux', " Express.js"],
     },
   ];
   return (
-    <div className='font-helvetica   p-3 mt-4'>
+    <div className='   p-3 mt-4'>
       <h1 className='text-xl border-b-4 pb-[1px] font-extrabold'>SKILLS</h1>
-      <div className='mt-2'>
+      <div className='mt-2 p-2'>
         {data.map((item) => (
           <HelperComponent key={item.id} title={item.title} list={item.list} />
         ))}
