@@ -8,7 +8,7 @@ export default function SkillsContainer() {
     {
       id: 2,
       title: 'Frameworks',
-      list: ['React.js', ' React-Native', ' Flutter', ' Material-UI'],
+      list: ['React.js', ' React-Native', ' Flutter', ' Material-UI', " Django", " Flask"],
     },
     {
       id: 3,
