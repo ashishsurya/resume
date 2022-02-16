@@ -14,7 +14,7 @@ export default function Header() {
           className='underline border-r pr-2 border-gray-600'
           href='mailto:ashishsurya126@protonmail.com'
         >
-          ashishsurya126@gmail.com
+          ashishsurya126@protonmail.com
         </a>
         <a className='underline' href='https://github.com/ashishsurya126'>
           github/suryaashish
