@@ -12,7 +12,7 @@ export default function Header() {
         </a>
         <a
           className='underline border-r pr-2 border-gray-600'
-          href='mailto:ashishsurya126@gmail.com'
+          href='mailto:ashishsurya126@protonmail.com'
         >
           ashishsurya126@gmail.com
         </a>
